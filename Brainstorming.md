@@ -5,3 +5,8 @@
 ## Ideas with some interest
 
 ## Backup ideas
+
+  * Exercise app
+  * Tutoring app 
+  * Slack app for classes 
+  * 
