@@ -8,13 +8,14 @@
   ### Options we want
   * bot read reddit and post meme that coincided with print.
   * allow picture to be uploaded.
+  * 
   
 ## What we need
- * AWS or personal server -- Linux LAMP + python bot, DB in mysql/mariadb
+ * AWS or personal server -- Linux LAMP + python bot, DB in mysql/mariadb. Leaning towards AWS
  * Domain name
- * Find out how to load text on images -- imagemagic & php(?), jquery plugin, 
+ * Find out how to load text on images -- imagemagic & php(?), jquery plugin, python library for adding to images
   
-
+# Ideas that didn't meet the cut
 
 ## Ideas with a lot of interest
   * Meme generator app - upload images, add text, share, download. Dynamically generated memes
