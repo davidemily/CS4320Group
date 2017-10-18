@@ -5,6 +5,7 @@
   * Select template meme
   * Write to image: Call name of picture, text you want in top, text you want in bottom.
   * Server to hold images created -- drop down with popular names, not allow same names, set tags for memes (?)
+  
   ### Options we want
   * bot read reddit and post meme that coincided with print.
   * allow picture to be uploaded.
