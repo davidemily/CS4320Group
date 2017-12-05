@@ -22,7 +22,7 @@ This project utilizes Canvas so HTML5 is required to utilize the meme maker.
 
 ### Installing
 
-The Mizzou Meme Maker does not require any installation of software as the site runs through on a server.
+The Mizzou Meme Maker does not require any installation of software as the site is hosted on our server.
 
 ## Built With
 
