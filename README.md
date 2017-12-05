@@ -29,7 +29,7 @@ The Mizzou Meme Maker does not require any installation of software as the site 
 * [MariaDB](https://mariadb.org)
 * [Domain.com](https://www.domain.com)
 * [Bootstrap](https://getbootstrap.com)
-* [HTML5](https://www.w3.org/TR/html5/
+* [HTML5](https://www.w3.org/TR/html5/)
 
 ## Problem & Solutions
 
