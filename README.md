@@ -34,6 +34,8 @@ The Mizzou Meme Maker does not require any installation of software as the site 
 ## Problem & Solutions
 
 ## Why We Chose What We Did
+#### Javascript
+We chose Javascript due to the ease of the language and the information on it. Both IMGUR and Reddit have easy-to-read documentation on utilizing their API with Javascript. We were also able to find code on how to prompt the user to save locally using Javascript by using online resources. 
 
 ## Contributors
 
