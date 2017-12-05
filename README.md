@@ -37,11 +37,7 @@ The Mizzou Meme Maker does not require any installation of software as the site 
 
 ## Contributors
 
-Sarah Twomey
-David Emily
-Landen Eagan
-Jason Kayser
-Alex Lasley
+Sarah Twomey, David Emily, Landen Eagan, Jason Kayser & Alex Lasley
 
 ## License
 
