@@ -1,0 +1,38 @@
+#Copy this file. Do not alter it!
+#Alter the last 5 lines of this to fit your needs
+#The client secret and id can be obtained from https://www.reddit.com/prefs/apps 
+#choose script and make the redirect to localhost
+#Create the app with whatever account the bot will be posting from!!!!
+#When done change to praw.ini 
+#once changed it will be ignored 
+
+[DEFAULT]
+# A boolean to indicate whether or not to check for package updates.
+check_for_updates=True
+
+# Object to kind mappings
+comment_kind=t1
+message_kind=t4
+redditor_kind=t2
+submission_kind=t3
+subreddit_kind=t5
+
+# The URL prefix for OAuth-related requests.
+oauth_url=https://oauth.reddit.com
+
+# The URL prefix for regular requests.
+reddit_url=https://www.reddit.com
+
+# The URL prefix for short URLs.
+short_url=https://redd.it
+
+#username and password are for reddit account that created app and that the bot will post from
+[bot1]
+client_id=
+client_secret=
+password=
+username=
+user_agent=
+# make a useragent followed by version number and user
+# for example, my script had the useragent <DavidBot 1.0 by /u/ Emily_Bot>
+# get rid of the <> obviously

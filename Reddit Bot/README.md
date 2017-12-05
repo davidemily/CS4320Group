@@ -1,0 +1,2 @@
+# MemeZouBot
+Repo for bot
