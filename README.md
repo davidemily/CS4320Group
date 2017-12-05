@@ -52,7 +52,7 @@ Bootstrap was used to style our website because of how easy it is to use and to 
 #### HTML5
 MizzouMemeMaker relies on HTML5's Canvas. We had originally planned to use the PHP GD library, but Canvas was much easier to work with.
 
-## Problem & Solutions
+## Problems & Solutions
 
 ## Contributors
 
@@ -61,7 +61,3 @@ Sarah Twomey, David Emily, Landen Eagan, Jason Kayser & Alex Lasley
 ## License
 
 No license
-
-## Acknowledgments
-
-
