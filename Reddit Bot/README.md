@@ -1,2 +1,2 @@
 # MemeZouBot
-Repo for bot
+Repo for Reddit bot we created using Python.
