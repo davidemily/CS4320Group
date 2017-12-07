@@ -2,11 +2,11 @@
 
 [MizzouMemeMaker](https://mizzoumememaker.com)
 
-[I'm the link for the bot github repo](https://github.com/jpk2f2/MemeZouBot)
+[Link to Bot Github Repo](https://github.com/jpk2f2/MemeZouBot)
 
-[I'm the link for the website github repo](https://github.com/jpk2f2/MemeZouSite)
+[Link to Website Github Repo](https://github.com/jpk2f2/MemeZouSite)
 
-[Axosoft](https://cs4320groupproj.axosoft.com)
+[Project's Axosoft](https://cs4320groupproj.axosoft.com)
 
 # Project Title
 
