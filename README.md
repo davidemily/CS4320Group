@@ -1,5 +1,7 @@
 # CS4320Group Mizzou Meme Maker
 
+[homepage]: https://github.com/davidemily/CS4320Group/blob/master/mizzouMemeHomepage.png "Homepage"
+
 [MizzouMemeMaker](https://mizzoumememaker.com)
 
 [Link to Bot Github Repo](https://github.com/jpk2f2/MemeZouBot)
