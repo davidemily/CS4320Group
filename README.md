@@ -54,6 +54,9 @@ MizzouMemeMaker relies on HTML5's Canvas. We had originally planned to use the P
 
 ## Problems & Solutions
 
+#### How to put text on the image
+The issue of putting text on an image is one that none of us ran into before. The original plan was to use the PHP GD library but the documentation was rough and I've never been a fan of PHP. During the research into the PHP, we found online resources that pointed to using Canvas. We decided to go this route as Javascript is much friendlier than PHP and many browsers today utilize HTML5.
+
 ## Contributors
 
 Sarah Twomey, David Emily, Landen Eagan, Jason Kayser & Alex Lasley
