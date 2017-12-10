@@ -20,7 +20,8 @@ For this project, we reserved the domain https://mizzoumememaker.com . The websi
 
 ### Prerequisites
 
-This project utilizes Canvas so HTML5 is required to utilize the meme maker. 
+This project utilizes Canvas so HTML5 is required to utilize the meme maker. In practical terms this 
+means you should use an up to date browser.
 
 ### Installing
 
@@ -40,10 +41,10 @@ The Mizzou Meme Maker does not require any installation of software as the site 
 We chose Javascript due to the ease of the language and the information on it. Both IMGUR and Reddit have easy-to-read documentation on utilizing their API with Javascript. We were also able to find code on how to prompt the user to save locally using Javascript by using online resources. 
 
 #### PHP
-PHP was chosen for the website to search the attached database for meme templates. All of our members had experience with PHP through the Web Development and Database course, so it made sense to use a language we were familiar with.
+PHP was chosen for the website in order to interface with the database. All of our members had experience with PHP through the Web Development and Database course, so it made sense to use a language we were familiar with.
 
 #### MariaDB
-MariaDB was used for the database because of the open source nature and it comes packaged with Fedora. 
+MariaDB was chosen for several reasons. The first is that it is open source, which is something our team likes to support where possible. We also have experience using MariaDB, which made setting up a database fairly painless.  
 
 #### Domain.com
 The reason for using Domain.com as our domain provider is because the company sponsored Tiger Hacks so our members had free trial coupons. As the website is hosted from one of our member's servers, we did not use much of their hosting services.
@@ -63,6 +64,12 @@ The issue of putting text on an image is one that none of us ran into before. Th
 Getting the website to work with Reddit's API was one of the main problems of the site. We had originally planned to use Python but, due to time restraints and ease of testing, switched to Javascript to get a working front end product. Luckily, there existed examples on using the Reddit API with Javascript. We ended up choosing [Snoowrap](https://not-an-aardvark.github.io/snoowrap/snoowrap-v1.js) to ease some of the problems with interfacing with the API. 
 
 Another issue with Reddit is it requries a static link to the image (Meme) in order to make a thread. This issue led us to also using Imgur's API, to host the image, and give us the link we needed for Reddit.
+
+#### Dynamic website using database
+One issue we had was linking the website to the database. Quite a few hours were spent attempting to get it to work, with no success. In the process it also broke other parts of the site. I was able to solve the issue after moving a copy of the site to a linux container on my own server at home, where it worked. This led to the realization that the php package for sql support was not installed on our live server, which was quickly remedied. This is a textbook example of why you should not make assumptions, but should check every step involved in an issue.
+
+#### Placing text on image pulled from server
+The original text overlay was created before the addition of the php, and therefore to ease development time it was decided that we would use the same javascript logic for images pulled from the server. In order to do this I setup the javascript to pull the image from the server according to the existing image they selected from the dynamic list. This led to two issues. The first is that it did not properly reformat images that were pulled down. The second issue involved the function and logic that adds the text overlay, as doing so caused odd behaviour that applied the text multiple times and did not erase it when the text was removed. This all occured during our final sprint, and although we spent a fair amount of time troubleshoting it, we were not able to fix it. We were able to gain an approximate understanding of its cause, and believe that to fix it would require an entire remake of the logic for adding text to pictures. We would likely need an additonal sprint, largely dedicated to removing that code and preferably rewriting it in php in order to remove the load from the user. Due to a lack of time, those changes will be outside the scope of this project. 
 
 
 ## Contributors
