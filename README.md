@@ -71,6 +71,15 @@ One issue we had was linking the website to the database. Quite a few hours were
 #### Placing text on image pulled from server
 The original text overlay was created before the addition of the php, and therefore to ease development time it was decided that we would use the same javascript logic for images pulled from the server. In order to do this I setup the javascript to pull the image from the server according to the existing image they selected from the dynamic list. This led to two issues. The first is that it did not properly reformat images that were pulled down. The second issue involved the function and logic that adds the text overlay, as doing so caused odd behaviour that applied the text multiple times and did not erase it when the text was removed. This all occured during our final sprint, and although we spent a fair amount of time troubleshoting it, we were not able to fix it. We were able to gain an approximate understanding of its cause, and believe that to fix it would require an entire remake of the logic for adding text to pictures. We would likely need an additonal sprint, largely dedicated to removing that code and preferably rewriting it in php in order to remove the load from the user. Due to a lack of time, those changes will be outside the scope of this project. 
 
+#### Team collaboration on the server
+Development took place on a Fedora 26 server due to ease of development on GNU/Linux platforms and availability of modern features and recent software packages on the Fedora distribution.
+
+We used Apache's userdir module to provide each team member an independent document root for their current development branch.
+
+For deployment from GitHub to the production environment we configured a repo with `git config core.sharedRepository group`, used the `setgid` bit, and gave each user account the same primary group and `umask 002`. The combined effect of these options is to allow any of the team members to perform git operations in the main directory of the web server.
+
+#### Securing the server
+We chose to deploy a Let's Encrypt certificate with the [Certbot](https://certbot.eff.org/) utility because it has no monetary cost. We took up-to-date advice from Mozilla's [configuration generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/) on ciphers to use.
 
 ## Contributors
 
