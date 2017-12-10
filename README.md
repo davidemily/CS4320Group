@@ -1,6 +1,6 @@
 # CS4320Group Mizzou Meme Maker
 
-[homepage]: https://github.com/davidemily/CS4320Group/blob/master/mizzouMemeHomepage.png "Homepage"
+![homepage](https://github.com/davidemily/CS4320Group/blob/master/mizzouMemeHomepage.png)
 
 [MizzouMemeMaker](https://mizzoumememaker.com)
 
