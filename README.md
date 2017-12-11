@@ -1,4 +1,5 @@
 # CS4320Group Mizzou Meme Maker
+#### A Sarah Twomey, David Emily, Landen Eagan, Jason Kayser & Alex Lasley Collaboration
 
 ![homepage](https://github.com/davidemily/CS4320Group/blob/master/mizzouMemeHomepage.png)
 
