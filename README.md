@@ -2,13 +2,15 @@
 
 ![homepage](https://github.com/davidemily/CS4320Group/blob/master/mizzouMemeHomepage.png)
 
-[MizzouMemeMaker](https://mizzoumememaker.com)
+[MizzouMemeMaker Homepage](https://mizzoumememaker.com)
 
-[Link to Bot Github Repo](https://github.com/jpk2f2/MemeZouBot)
+[Bot Github Repo](https://github.com/jpk2f2/MemeZouBot)
 
-[Link to Website Github Repo](https://github.com/jpk2f2/MemeZouSite)
+[Website Github Repo](https://github.com/jpk2f2/MemeZouSite)
 
 [Project's Axosoft](https://cs4320groupproj.axosoft.com)
+
+[Project Video](https://www.youtube.com/watch?v=o4sJaqznO0k)
 
 # Project Title
 
@@ -64,6 +66,9 @@ The issue of putting text on an image is one that none of us ran into before. Th
 Getting the website to work with Reddit's API was one of the main problems of the site. We had originally planned to use Python but, due to time restraints and ease of testing, switched to Javascript to get a working front end product. Luckily, there existed examples on using the Reddit API with Javascript. We ended up choosing [Snoowrap](https://not-an-aardvark.github.io/snoowrap/snoowrap-v1.js) to ease some of the problems with interfacing with the API. 
 
 Another issue with Reddit is it requries a static link to the image (Meme) in order to make a thread. This issue led us to also using Imgur's API, to host the image, and give us the link we needed for Reddit.
+
+#### Integrating Imgur
+We needed Imgur to host the images to give us a static, publicly-accessible link to use with the Reddit API. Imgur's website lists how to use the API with different languages, so we found the one for Javascript. The Imgur API is locked down with an API key so we had to list what our web project did and apply for approval to use the API. After approval, we simply used the Javascript code given to us and input our team's key information.
 
 #### Dynamic website using database
 One issue we had was linking the website to the database. Quite a few hours were spent attempting to get it to work, with no success. In the process it also broke other parts of the site. I was able to solve the issue after moving a copy of the site to a linux container on my own server at home, where it worked. This led to the realization that the php package for sql support was not installed on our live server, which was quickly remedied. This is a textbook example of why you should not make assumptions, but should check every step involved in an issue.
